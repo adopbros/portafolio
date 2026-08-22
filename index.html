@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac David</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Isaac</div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="preview" id="inicio">
+            <div class="text">
+                <p class="saludo">Hola, soy</p>
+                <h1>Isaac David</h1>
+                <p class="rol">Estudiante de programación y diseño web</p>
+                <p class="intro-corta">Me gusta aprender, crear cosas y mejorar un poco cada día.</p>
+                <div class="acciones">
+                    <a class="btn" href="#contacto">Contáctame</a>
+                    <a class="email" href="mailto:isaac@email.com">isaac@email.com</a>
+                </div>
+            </div>
+            <div class="img">
+                <div class="foto">ID</div>
+            </div>
+        </section>
+
+        <section class="sobre-mi" id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Soy estudiante y me interesa la programación y el diseño web. Estoy empezando y quiero seguir aprendiendo para crear sitios más completos.</p>
+            <p>En mi tiempo libre me gusta ver tutoriales, practicar código y crear páginas simples como esta.</p>
+            <p>Mi meta es mejorar poco a poco y algún día trabajar en proyectos reales.</p>
+        </section>
+
+        <section class="educacion" id="educacion">
+            <h2>Educación</h2>
+            <div class="item">
+                <h3>Estudiante</h3>
+                <p>Actualmente estudio y practico programación por mi cuenta.</p>
+            </div>
+            <div class="item">
+                <h3>Cursos y práctica</h3>
+                <p>HTML, CSS y conceptos básicos de JavaScript con ejercicios y proyectos pequeños.</p>
+            </div>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="dos-columnas">
+                <div class="bloque">
+                    <h3>Técnicas</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript (aprendiendo)</li>
+                        <li>Uso básico de VS Code / Cursor</li>
+                    </ul>
+                </div>
+                <div class="bloque">
+                    <h3>Personales</h3>
+                    <ul>
+                        <li>Trabajo en equipo</li>
+                        <li>Responsabilidad</li>
+                        <li>Ganas de aprender</li>
+                        <li>Constancia</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyectos" id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="lista-proyectos">
+                <div class="proyecto">
+                    <h3>Mi página web</h3>
+                    <p>Esta página personal hecha con HTML y CSS para presentarme.</p>
+                    <p class="etiqueta">HTML · CSS</p>
+                </div>
+                <div class="proyecto">
+                    <h3>Práctica de código</h3>
+                    <p>Ejercicios pequeños para aprender etiquetas, estilos y estructura.</p>
+                    <p class="etiqueta">Práctica</p>
+                </div>
+                <div class="proyecto">
+                    <h3>Próximo proyecto</h3>
+                    <p>Quiero hacer una página de un juego o una tienda simple.</p>
+                    <p class="etiqueta">En idea</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="intereses">
+            <h2>Me gusta</h2>
+            <ul class="lista-simple">
+                <li>Programación</li>
+                <li>Videojuegos</li>
+                <li>Música</li>
+                <li>Aprender cosas nuevas</li>
+                <li>Diseñar páginas web</li>
+            </ul>
+        </section>
+
+        <section class="objetivos">
+            <h2>Mis objetivos</h2>
+            <ol>
+                <li>Aprender mejor JavaScript</li>
+                <li>Hacer más proyectos personales</li>
+                <li>Mejorar el diseño de mis páginas</li>
+                <li>Seguir estudiando programación</li>
+            </ol>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <h2>Contacto</h2>
+            <p>Si quieres hablar conmigo, escríbeme o deja un mensaje.</p>
+            <p>Email: <a href="mailto:isaac@email.com">isaac@email.com</a></p>
+
+            <form class="formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo" placeholder="tu@email.com">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Isaac David</p>
+        <p class="footer-links">
+            <a href="#inicio">Inicio</a> ·
+            <a href="#proyectos">Proyectos</a> ·
+            <a href="#contacto">Contacto</a>
+        </p>
+    </footer>
+</body>
+</html>
